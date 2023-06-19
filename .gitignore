@@ -1,0 +1,19 @@
+#written as white list
+*
+!.git
+!.gitignore
+
+!images
+!images/*
+
+!resized_linear
+!resized_linear/*.result
+
+!resized_parallel
+!resized_parallel/*.result
+
+!.env
+!go.mod
+!go.sum
+!*.go
+!README.md
